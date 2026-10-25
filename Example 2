@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>IKEv2</key>
+            <dict>
+                <key>AuthenticationMethod</key>
+                <string>SharedSecret</string>
+                <key>DeadPeerDetectionRate</key>
+                <string>Medium</string>
+                <key>DisconnectOnIdle</key>
+                <integer>0</integer>
+                <key>EnableCertificateRevocationCheck</key>
+                <false/>
+                <key>EnablePFS</key>
+                <true/>
+                <key>LocalIdentifier</key>
+                <string>user@example.com</string>
+                <key>RemoteAddress</key>
+                <string>vpn.example.com</string>
+                <key>RemoteIdentifier</key>
+                <string>vpn.example.com</string>
+                <key>SharedSecret</key>
+                <string>your-shared-secret</string>
+            </dict>
+            <key>PayloadDescription</key>
+            <string>Configures VPN settings</string>
+            <key>PayloadDisplayName</key>
+            <string>VPN</string>
+            <key>PayloadIdentifier</key>
+            <string>com.example.vpn</string>
+            <key>PayloadType</key>
+            <string>com.apple.vpn.managed</string>
+            <key>PayloadUUID</key>
+            <string>9EE852F6-549B-4AC8-9328-11D4A07E7BFF</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>VPNType</key>
+            <string>IKEv2</string>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Company VPN</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.vpnprofile</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>4E03D60B-6DFC-4D16-9B83-64739D5E5F80</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
